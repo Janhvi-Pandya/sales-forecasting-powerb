@@ -27,5 +27,5 @@ jobs:
       - name: Run Jupyter notebook
         run: |
           pip install nbconvert
-          jupyter nbconvert --to notebook --execute notebooks/YourNotebookName.ipynb --output executed_notebook.ipynb
+          jupyter nbconvert --to notebook --execute notebooks/sales_forecasting.ipynb --output executed_notebook.ipynb
 
